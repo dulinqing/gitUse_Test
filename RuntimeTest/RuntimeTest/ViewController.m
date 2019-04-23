@@ -25,6 +25,8 @@
     
 //一个版本的变动
     //之前是V2.0,现在改动后令tag=3.0
+    
+    //fenzhi1做了个改变
     NSURL *url2= [NSURL URLWithString:nil];
     [[UIApplication sharedApplication]openURL:url2 options:@{} completionHandler:nil];
 
