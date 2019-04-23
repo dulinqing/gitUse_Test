@@ -23,10 +23,11 @@
     NSURL *url=[NSURL URLWithString:@"https://www.baidu.com"];
     [[UIApplication sharedApplication]openURL:url options:@{} completionHandler:nil];
     
-//    NSURL *url2=[NSURL URLWithString:nil];
+//一个版本的变动
+    //之前是V2.0,现在改动后令tag=3.0
     NSURL *url2= [NSURL URLWithString:nil];
     [[UIApplication sharedApplication]openURL:url2 options:@{} completionHandler:nil];
-    // Do any additional setup after loading the view.
+
 }
 
 
